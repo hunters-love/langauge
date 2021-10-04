@@ -1,9 +1,8 @@
 import React from 'react';
 import { CardGroup, Card } from 'react-bootstrap';
-import './Homedata.css'
 
-const Homedata = (props) => {
-    const { id, price, name, Authore, image } = props.homeService;
+const Servicedata = (props) => {
+    const { id, price, name, Authore, image } = props.service;
     return (
         <div className="home-card">
             <CardGroup>
@@ -32,9 +31,8 @@ const Homedata = (props) => {
 
             </CardGroup>
 
-
         </div>
     );
 };
 
-export default Homedata;
+export default Servicedata;

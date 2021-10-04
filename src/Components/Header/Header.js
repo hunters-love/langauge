@@ -43,7 +43,7 @@ const Header = () => {
                                     color: "red"
                                 }}
                             >
-                                Doc
+                                doc
                             </NavLink>
 
                             <NavLink
