@@ -1,0 +1,10 @@
+.footer-main{
+    background-color: black;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3px;
+}
+.footer-main p{
+    justify-content: center;
+}
